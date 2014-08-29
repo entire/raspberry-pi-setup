@@ -10,6 +10,5 @@ apt-get upgrade
 apt-get install -y git-core wget openssl
 
 # get node
-wget http://nodejs.org/dist/v0.10.2/node-v0.10.2-linux-arm-pi.tar.gz
-tar -xvzf node-v0.10.2-linux-arm-pi.tar.gz
-node-v0.10.2-linux-arm-pi/bin/node --version
+wget http://node-arm.herokuapp.com/node_latest_armhf.deb
+dpkg -i node_latest_armhf.deb
