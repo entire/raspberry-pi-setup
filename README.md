@@ -5,5 +5,5 @@ First time setup for Raspberry Pi Setup
 
 What it sets up
 
-- node.js server for ARM
+> node.js server for ARM
 - 
