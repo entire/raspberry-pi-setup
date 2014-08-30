@@ -6,8 +6,9 @@ if [[ $EUID -ne 0 ]]; then
 fi 
 
 apt-get update
-apt-get upgrade
+apt-get dist-upgrade
 apt-get install -y git-core wget openssl
+apt-get install vim vim-rt vim-full
 
 # get node
 wget http://node-arm.herokuapp.com/node_latest_armhf.deb
