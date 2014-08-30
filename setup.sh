@@ -8,7 +8,9 @@ fi
 apt-get update
 apt-get dist-upgrade
 apt-get install -y git-core wget openssl
-apt-get install vim vim-rt vim-full
+apt-get install vim 
+apt-get install vim-rt 
+apt-get install vim-full
 
 # get node
 wget http://node-arm.herokuapp.com/node_latest_armhf.deb
