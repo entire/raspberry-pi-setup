@@ -1,9 +1,10 @@
 raspberry-pi-setup
 ==================
 
-First time setup for Raspberry Pi Setup
+**First time setup for Raspberry Pi Setup**
 
-What it sets up
+What it sets up:
 
-> node.js server for ARM
-- 
+* `apt-get update` && `apt-get upgrade`
+* git, openssl, wget
+* Node.js for ARM
